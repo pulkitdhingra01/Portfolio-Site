@@ -3,7 +3,7 @@
 :root{
     --primary-color:#FCA5A5;
     --yelloww:#FBBF24;
-    --offwhite:#E5E7EB;
+    --offwhite:#F3F4F6;
 
 
 }
@@ -25,6 +25,10 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+.container-more{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /** links **/
