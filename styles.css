@@ -43,6 +43,9 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+.link-right{
+    float: right;
+}
 
 /** lists **/
 .list-non-bullet{
@@ -81,7 +84,7 @@ hr{
     padding: 2rem;
 }
 .hero .hero-img{
-    max-width: 350px;
+    max-width: 450px;
     margin: auto;
     display: block;
 }
@@ -96,7 +99,14 @@ hr{
 /* section */
 .section{
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
+
 .section h3{
     text-align: center;
 }
@@ -107,8 +117,9 @@ hr{
 .footer{
     background-color:var(--primary-color);
     color:white;
-    padding: 2rem;
+    padding: 1rem;
     border-bottom-right-radius: 1rem;
+    
 }
 .footer .footer-header{
     font-weight: bold;
